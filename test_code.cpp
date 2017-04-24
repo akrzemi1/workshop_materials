@@ -40,7 +40,7 @@ using AirportCode = Code<class Airport_tag, 3>;
 
 static_assert (!test::is_equality_comparable<CurrencyCode, AirportCode>::value, "unexpectedly comparable");
 static_assert (!std::is_convertible<CurrencyCode, AirportCode>::value, "unexpectedly convertible");
-static_assert (!std::is_convertible<AirportCode, CurrencyCode>::value, "unexpectedly comparable");
+static_assert (!std::is_convertible<AirportCode, CurrencyCode>::value, "unexpectedly convertible");
 static_assert (sizeof(CurrencyCode) == 3, "excessive sizeof");
 static_assert (std::is_trivially_copyable<CurrencyCode>::value, "not trivially copyable");
 
