@@ -10,7 +10,7 @@ We will be designing a small, fat and safe type for representing short codes, (l
 ## Prerequisites
 1. You will need to bring your own laptop with you
 2. You will need a C++11 compiler, such as:
-   * GCC 4.7 or higher
+   * GCC 4.7 or higher (ideally, GCC 5 or higher)
    * Clang 3.3 or higher
    * Visual Studio 2013 or higher
    * For GCC on Wondows, I recommend https://nuwen.net/mingw.html
