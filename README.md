@@ -17,3 +17,8 @@ We will be designing a small, fat and safe type for representing short codes, (l
 3. Preferably, bring a C++14 compiler, although this is not strictly necessary.
 4. You will need to be able to comipe and execute your C++ programs.
 5. No particular IDE is required; it is sufficient to use notepad or vim and run a compiler form command-line.
+
+## Useful links
+* Online C++ compiler: http://melpon.org/wandbox
+* Online compiler output explorer: https://godbolt.org/
+* Oncline C++ reference: http://www.cplusplus.com/reference/
